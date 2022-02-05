@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Projekt zaliczeniowy</title>
+</head>
+<body>
+    <div class="background">
+        
+    </div>
+    <div class="blur"></div>
+    <!--header-->
+    <header>
+        <a href="#"><span id="private">Future</span></a>
+
+        <a href="#down_articles"  id="spec_btn">ARTICLES</a>
+    </header>
+    <!--hero-->
+    <section class="hero">
+        <div class="hero-center" data-aos="fade-up">
+            <span class="main_txt">Welcome to the <span id="private">Future</span> </span>
+            <div class="hero-bar"></div>
+            <p>Join our Future and make it your own</p>
+        </div>
+        <!-- <div class="hero-right" data-aos="fade-down">
+            <img src="img/hero-image.jpeg" alt="hero image">
+        </div> -->
+    </section>
+    <!--blog-->
+    <section class="blog" id="down_articles">
+        <!--card-->
+        <article class="card">
+            <img src="img/info.png">
+            <h3><a class="card-link" href="">Some info</a></h3>
+            <p>In the Future you will find a lot of information about Web 3.0, blockchain and many more...</p>
+            <a class="btn" href="#">READ MORE</a>
+        </article>
+        <!--card-->
+        <article class="card">
+            <img src="img/bit.png">
+            <h3><a class="card-link" href="">Which crypto ...</a></h3>
+            <p>Future will help You with choosing the right cryptocurrency for You.</p>
+            <a class="btn" href="#">READ MORE</a>
+        </article>
+        <!--card-->
+        <article class="card">
+            <img src="img/lock.png">
+            <h3><a class="card-link" href="">Lorem ipsum dolor sit.</a></h3>
+            <p>Past is a good teacher, but wait till you learn what Future has to offer...</p>
+            <a class="btn" href="#">READ MORE</a>
+        </article>
+
+    </section>
+    <!--video-->
+    <section class="video">
+        <div>
+        <video controls autoplay muted>
+            <source src="img/vid.mp4">
+        </video>
+        </div>
+    </section>
+
+        <section class="cta-two-columns">
+        <div class="container two-columns">
+            <div class="cta-image">
+                <img src="img/avatar.png" alt="avatar-man">
+            </div>
+            <div>
+                <h2>Join our Future</h2>
+                <p>Join our Future and make it your own</p>
+                <a href="#" class="btn">JOIN FUTURE</a>
+            </div>
+        </div>
+    </section>
+    
+    <!--footer-->
+    <footer>
+        <div class="col">
+            <a href="#" class="logo">Contact team of  <strong>Future</strong></a>
+            <div class="hero-bar"></div>
+            <p>If you have any problems with getting into Future, please contact our team from Future.</p>
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+            <h3>KONTAKT</h3>
+            <div class="hero-bar"></div>
+            <form action="">
+                <input placeholder="Enter your E-mail" type="text">
+                <br>
+                <textarea placeholder="Tell us what's up"></textarea>
+                <br>
+                <input type="submit" class="btn">
+            </form>
+        </div>
+    </footer>
+
+
+<!--script-js-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    document.getElementById('vid').play();
+</script>
+</body>
+</html>
